@@ -54,7 +54,7 @@ def bmi_calculator (weight_kg, height_cm):
     bmi = weight_kg / height_cm**2
     return bmi
 
-weight = float(input("enter your weight in kilo meter "))
+weight = float(input("Please, enter your weight in kilo meter "))
 height = float(input("enter your height in cm "))
 
 resultat = bmi_calculator (weight, height)
